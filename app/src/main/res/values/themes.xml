@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ITrack" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ITrack" parent="Base.Theme.ITrack" />
+
+    <style name="itrack">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#EA3248</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+
+    <style name="btnPrimary" parent="Theme.ITrack">
+        <item name="android:background">@drawable/primary_btn</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+</resources>
